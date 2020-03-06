@@ -41,7 +41,7 @@ def main():
         return
 
     # waits(livestreams usually start some minutes earlier, hence 5 min)
-    # waituntil(lecture_date, 5 * 60)
+    waituntil(lecture_date, 5 * 60)
 
     # scrape links of newest livestream
     links = lookforlivestream(tumid, password, catalogid)
